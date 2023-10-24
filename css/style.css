@@ -79,7 +79,13 @@ header .logo {
   color: #090909;
 }
 /* productos*/
-
+.seccion-productos{
+  display: flex;
+  justify-content: center;
+}
+.card{
+margin: 4rem;
+}
 .contenedor {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
