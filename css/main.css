@@ -24,7 +24,22 @@ body {
     flex-direction: column;
   }
   .background-inicio .inicio h1 {
-    margin-top: -150px;
+    margin-top: -100px;
+    position: relative;
+    top: -40px;
+    margin-top: -20px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+  }
+  .boton {
+    margin-top: 100px;
+  }
+  .madre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .contenedor {
     display: flex;
@@ -69,6 +84,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 80vw;
   }
   .seccion-productos {
     display: flex;
@@ -85,6 +101,7 @@ body {
     height: auto;
   }
   .formulario {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -228,6 +245,7 @@ a:hover {
   position: relative;
   display: flex;
   flex-direction: column;
+  color: #18151f;
 }
 .postcard .postcard__preview-txt {
   overflow: hidden;
@@ -414,6 +432,26 @@ a:hover {
 
 .slider-container {
   margin-top: 40px;
+}
+
+.titulo-dos {
+  background-color: rgb(11, 11, 11);
+  text-align: center;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.titulo-dos h2 {
+  color: white;
+}
+
+.titulo-dos h2 {
+  transform: scale(1);
+  transition: transform 0.3s;
+}
+
+.titulo-dos:hover h2 {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=main.css.map */

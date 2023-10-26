@@ -7,3 +7,26 @@
 .slider-container {
   margin-top: 40px;
 }
+.titulo-dos {
+  background-color: rgb(11, 11, 11);
+  text-align: center; 
+  padding: 10px; 
+  
+  margin-top: 35px;
+}
+.titulo-dos h2 {
+  color: white; 
+}
+
+.titulo-dos h2 {
+  transform: scale(1); 
+  transition: transform 0.3s; 
+}
+
+.titulo-dos{
+  &:hover{
+       h2{
+      transform: scale(1.2)
+        }
+      }
+    }
