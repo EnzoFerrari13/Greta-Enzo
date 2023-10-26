@@ -1,0 +1,15 @@
+// utils
+@import "../scss/utils/variables";
+@import "../scss/utils/global";
+@import "../scss/utils/mediaquery";
+
+//componentes
+@import "../scss/components/navbar";
+@import "../scss/components/footer";
+
+//vistas
+@import "../scss/views/index";
+@import "../scss/views/about";
+@import "../scss/views/products";
+@import "../scss/views/contact";
+@import "../scss/views/promo";

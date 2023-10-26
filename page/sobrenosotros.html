@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
     <header>
@@ -73,23 +73,52 @@
 
     <main>
       <section>
-        <h1 class="titulo-principal">Informacion de nuestra pagina</h1>
-        <div class="contenedor-inf">
-          <div class="contenedor-inf-imagen">
-            <img src="../assets/imagen-nostros.jpg" alt="nosotros img" />
-          </div>
-          <div class="contenedor-parrafo">
-            <p class="parrafo">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-              ducimus esse unde temporibus, eum earum voluptatum veritatis
-              commodi id molestias impedit asperiores rem obcaecati porro, hic
-              necessitatibus accusamus dolor! Autem! Lorem ipsum dolor sit, amet
-              consectetur adipisicing elit. Autem assumenda praesentium culpa.
-              Eligendi nostrum voluptates obcaecati, ab quibusdam amet? Pariatur
-              dolore voluptate suscipit ab temporibus doloremque quam eaque
-              provident asperiores...
-            </p>
-          </div>
+        <div class="container py-2">
+          <div class="h1 text-center text-white" id="pageHeaderTitle">Sobre Nosotros</div>
+          <article class="postcard light blue">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title blue"><a href="#">Conócenos</a></h1>
+              <div class="postcard__subtitle small">
+                <time datetime="2020-05-25 12:00:00">
+                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">En "Carteras Elegantes", nos apasiona la moda y el diseño de carteras, ofreciendo elegancia y calidad a nuestros clientes exigentes. Nuestra colección única combina estilo, funcionalidad y calidad.</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Tienda de Carteras</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>Horario: Lunes a Viernes de 9 AM a 6 PM</li>
+                <li class="tag__item play blue">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Dirección: Calle Principal, Ciudad, País</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="postcard light red">
+            <a class="postcard__img_link" href="#">
+              <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+              <div class="postcard__subtitle small">
+                <time datetime="2020-05-25 12:00:00">
+                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                </time>
+              </div>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                <li class="tag__item play red">
+                  <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                </li>
+              </ul>
+            </div>
+          </article>
         </div>
       </section>
     </main>

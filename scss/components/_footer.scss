@@ -1,0 +1,15 @@
+/* footer */
+
+footer {
+  display: flex;
+  position: relative;
+  .footer-conteiner {
+    margin: 0 auto;
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

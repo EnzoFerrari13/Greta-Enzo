@@ -1,0 +1,80 @@
+/* medias querys */
+
+@media screen and (max-width: 768px) {
+  .background-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .background-inicio .inicio h1 {
+    margin-top: -150px;
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .promocion {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .promocion-producto {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+  }
+  .contenedor-inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contenedor-inf-imagen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .background-inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .seccion-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card {
+    flex: 1 0 calc(100% - 10px);
+    margin: 10px; 
+  }
+
+  .card img {
+    width: 100% !important;
+    height: auto;
+  }
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:90% !important ;
+ }
+}
