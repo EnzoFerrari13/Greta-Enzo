@@ -78,7 +78,7 @@ body {
     width: 80vw;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .background-inicio {
     display: flex;
     align-items: center;
@@ -101,10 +101,6 @@ body {
     height: auto;
   }
   .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     width: 90% !important;
   }
 }
