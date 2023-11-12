@@ -1,0 +1,23 @@
+
+#greta-hero-carousel { background: #efefef !important;}
+
+#greta-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: $main-red;
+  }
+#greta-hero-carousel .carousel-indicators li {
+    list-style: none;
+}
+
+#greta-hero-carousel .carousel-control-next i,
+#greta-hero-carousel .carousel-control-prev i {
+    color: $main-red !important;
+    font-size: 2.8em !important;
+  }
+#categorias{
+    background: #ffffff !important;
+}
+#greta-hero-carousel .carousel-control-next i, #greta-hero-carousel .carousel-control-prev i{
+    color: transparent !important;
+    background-color: transparent !important;
+}

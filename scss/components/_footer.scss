@@ -1,15 +1,19 @@
 /* footer */
-
-footer {
-  display: flex;
-  position: relative;
-  .footer-conteiner {
-    margin: 0 auto;
-    padding: 20px;
-    gap: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+/* Footer */
+#greta_footer a { color: #dcdde1;}
+#greta_footer a:hover { color: #68bb7d;}
+#greta_footer ul.footer-link-list li { padding-top: 10px;}
+#greta_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
 }
+#greta_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#greta_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#greta_footer .border-light { border-color: #2d343f !important;}

@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #a50606;
+  background-color: #ffffff;
 }
 
 .container-fluid {
@@ -104,11 +104,15 @@ body {
     width: 90% !important;
   }
 }
+@media (min-width: 992px) {
+  #template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+}
 /* navbar */
-header .logo {
-  height: 50px;
-  margin-left: 10px;
-  margin-top: 5px;
+.logo {
+  font-size: 48px !important;
+  font-weight: 500 !important;
 }
 
 .navbar.navbar-expand-lg {
@@ -121,18 +125,65 @@ header .logo {
 }
 
 /* footer */
-footer {
-  display: flex;
-  position: relative;
+/* Footer */
+#greta_footer a {
+  color: #dcdde1;
 }
-footer .footer-conteiner {
-  margin: 0 auto;
-  padding: 20px;
-  gap: 10px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+#greta_footer a:hover {
+  color: #68bb7d;
+}
+
+#greta_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#greta_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+
+#greta_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: 0.5s;
+}
+
+#greta_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: 0.5s;
+}
+
+#greta_footer .border-light {
+  border-color: #2d343f !important;
+}
+
+#greta-hero-carousel {
+  background: #efefef !important;
+}
+
+#greta-hero-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #bd150b;
+}
+
+#greta-hero-carousel .carousel-indicators li {
+  list-style: none;
+}
+
+#greta-hero-carousel .carousel-control-next i,
+#greta-hero-carousel .carousel-control-prev i {
+  color: #bd150b !important;
+  font-size: 2.8em !important;
+}
+
+#categorias {
+  background: #ffffff !important;
+}
+
+#greta-hero-carousel .carousel-control-next i, #greta-hero-carousel .carousel-control-prev i {
+  color: transparent !important;
+  background-color: transparent !important;
 }
 
 /* inicio */
@@ -402,10 +453,6 @@ a:hover {
   height: 250px;
   object-fit: cover;
   display: block;
-}
-
-.colorprodcutos {
-  color: #ffffff;
 }
 
 /* contacto-main*/
